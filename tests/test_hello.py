@@ -2,8 +2,8 @@ import unittest
 
 from io import StringIO
 from unittest.mock import patch
-from package_name.modules_name.hello import print_hello
 
+from package_name.modules_name.hello import print_hello
 
 class HelloTestCase(unittest.TestCase):
     def test_hello(self):
