@@ -1,3 +1,7 @@
+"""
+Main Package Docs
+"""
+
 from modules_name.hello import print_hello
 
 if __name__ == '__main__':
