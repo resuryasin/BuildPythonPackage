@@ -1,0 +1,5 @@
+***Test***
+**build**
+*pkg*
+
+minimalist
