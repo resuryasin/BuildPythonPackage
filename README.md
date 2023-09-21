@@ -1,5 +1,1 @@
-***Test***
-**build**
-*pkg*
-
-minimalist
+# Template-Python
