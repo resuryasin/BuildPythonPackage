@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "template"
+authors = [
+    {name = "resuryasin", email = "surya.d.pradana@gmail.com"},
+]
+description = "My package description"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["python", "template"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.8"',
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+pdf = ["ReportLab>=1.2", "RXP"]
+rest = ["docutils>=0.3", "pack ==1.1, ==1.3"]
